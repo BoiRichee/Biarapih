@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "name": "Loose Fit overshirt",
+        "description": "Overshirt in soft, fuzzy fabric containing some wool featuring a collar and buttons down the front. Relaxed fit with open chest pockets, a yoke at the back and long sleeves with buttoned cuffs. Rounded hem.",
+        "price": 999900,
+        "stock": 150,
+        "imgUrl": "https://image.hm.com/assets/hm/72/e1/72e141a867b2bfdedf075031a7a1d238280567a6.jpg?imwidth=2160",
+        "categoryId": 2,
+        "userId": 1
+    }, 
+    {
+        "id": 2,
+        "name": "10oz Wooven Denim Fabric",
+        "description": "Blue+gray color waterproof woven denim fabric",
+        "price": 400000,
+        "stock": 50,
+        "imgUrl": "https://s.alicdn.com/@sc04/kf/HTB1j9AxJFXXXXXAXFXXq6xXFXXXe.jpg_720x720q50.jpg",
+        "categoryId": 1,
+        "userId": 1
+    }
+]

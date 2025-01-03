@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Alex Boutier",
+        "photo": "https://www.pngitem.com/pimgs/m/78-786293_1240-x-1240-0-avatar-profile-icon-png.png",
+        "bod": "1993-01-07",
+        "status": "Admin",
+        "userId": 1
+    },
+    {
+        "name": "Daniel Maxim",
+        "photo": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e",
+        "bod": "1999-09-10",
+        "status": "Staff",
+        "userId": 2
+    }
+]

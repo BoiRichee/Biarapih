@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "userId": 1,
+        "productId": 1,
+        "stock": 150,
+        "status": true
+    },
+    {
+        "id": 2,
+        "userId": 1,
+        "productId": 2,
+        "stock": 50,
+        "status": true
+    }
+]

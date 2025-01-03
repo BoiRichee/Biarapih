@@ -1,0 +1,31 @@
+1. Packages n things:
+npm i pg express sequelize bcrypt jsonwebtoken dotenv multer cloudinary jest mysql2
+npm i --save-dev jest
+npm i supertest --save-dev
+npx sequelize-cli init
+
+2. Setup:
+
+npx sequelize-cli db:create
+npx sequelize-cli db:migrate
+npx sequelize-cli db:seed:all
+
+3. models & seeders makers:
+
+npx sequelize-cli model:generate --name Users --attributes email:string,password:string,admin:string
+npx sequelize-cli model:generate --name Profiles --attributes userId:integer,name:string,photo:string,bod:date,status:string
+npx sequelize-cli model:generate --name Categories --attributes name:string
+npx sequelize-cli model:generate --name Products --attributes name:string,description:string,price:integer,stock:integer,imgUrl:string,categoryId:integer,userId:integer
+npx sequelize-cli model:generate --name MyProducts --attributes productId:integer,userId:integer,stock:integer,status:boolean
+
+npx sequelize-cli seed:generate --name user
+npx sequelize-cli seed:generate --name profile
+npx sequelize-cli seed:generate --name myprofile
+npx sequelize-cli seed:generate --name category
+npx sequelize-cli seed:generate --name product
+
+
+4. 3rd Party API =
+
+Gemini AI
+pdfKit
